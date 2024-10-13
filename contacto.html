@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mi Página</title>
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+
+    <main>
+        <section class="contact-form">
+            <div class="text-center mb-4">
+                <img src="assets/items/logo.jpeg" alt="Logo Tech Squad" class="img-fluid">
+            </div>
+            <h2>Contáctanos</h2>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script>
+        function validarFormulario() {
+            // Validaciones básicas
+            if (nombre.value === "") {
+                alert("Por favor, ingresa tu nombre.");
+                return false;
+            }
+            // ... otras validaciones ...
+            return true;
+        }
+    </script>
+</body>
+</html>
