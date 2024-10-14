@@ -10,40 +10,78 @@
 <body>
 
     <!-- Cabecera -->
-<nav class="navbar navbar-expand-lg navbar-light">
+ <nav class="navbar navbar-expand-md navbar-light bg-grey">
   <a class="logo" href="#">
-    <img src="/assets/items/logo.jpeg" alt="Logo" width="100%" height="100%">
+    <img src="/assets/items/logo.png" alt="Logo" width="100%" height="100%">
   </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      
+      <ul class="navbar-nav mr-auto ms-1">
         <li class="nav-item">
-          <a class="nav-link" href="#">Inicio</a>
+          <a class="btn btn-primary ms-3" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Acerca de nosotros</a>
+          <a class="btn btn-primary ms-3" href="#">Acerca de nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
+          <a class="btn btn-primary ms-3" href="#">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="btn btn-primary ms-3" href="#">Contacto</a>
         </li>
       </ul>
+      
     </div>
   </nav>
   
   <!-- Contenido -->
 
-  <h1>LIDERES EN SOLUCIONES INFORMATICAS</h1>
-  <div class="container-img1">
-        <img src="/assets/items/img1.jpg" alt="img1" width="100%" height="100%">
+  <h1 class=" my-5">LIDERES EN SOLUCIONES INFORMATICAS</h1>
+
+  <div class="d-flex  justify-content-center  container2">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/items/img1.jpg" class="d-block w-100" alt="img1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/items/img3.jpg" class="d-block w-100" alt="img3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <hr></hr>
+  <h2>Nuestra Empresa</h2>
+
+  <hr></hr>
+
+  <div class="container1">
+  
+    <div id= "about"class= "col-md-6">
+    <p > Somos más que una empresa lider en soluciones tecnológicas; somos su socio estratégico en el camino hacia un futuro más eficiente y conectado.</p>
+    <br></br>
+    <p>¿Por qué elegirnos? </p> 
+    <br></br>
+    <p>Aquí hay tres razones poderosas:</p>
+    <br></br>
+    <ul>
+    <li>Soluciones Personalizadas: Entendemos que cada negocio es único. Nuestro equipo de expertos trabaja mano a mano contigo para diseñar soluciones a la medida de tus necesidades específicas. No solo implementamos tecnología; creamos estrategias que se alinean con tus objetivos.</li>
+   <li>Educación y Empoderamiento: No solo te proporcionamos herramientas; te enseñamos a utilizarlas. Ofrecemos talleres y recursos educativos para que tu equipo se sienta seguro y capacitado. Creemos que un cliente informado es un cliente empoderado.</li>
+    <li>Resultados Tangibles: Nuestros clientes han visto un crecimiento significativo en sus operaciones. Desde aumentar la eficiencia hasta mejorar la satisfacción del cliente, los resultados hablan por sí mismos. ¡No solo prometemos, entregamos!</li>
+  </ul>
+   </div>
   </div>
   
+
+
+  
+  
   <!-- Pie de página -->
-  <footer class="footer">
+  <footer class="footer bg-grey color-white">
     <div class="container-footer">
       <div class="row">
         <div class="copy">
@@ -53,5 +91,6 @@
     </div>
   </footer>
     
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
