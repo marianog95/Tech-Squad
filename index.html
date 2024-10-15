@@ -24,13 +24,13 @@
           <a class="btn btn-primary ms-3" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary ms-3" href="#">Acerca de nosotros</a>
+          <a class="enlace1 btn btn-primary ms-3" href="#about">Acerca de nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary ms-3" href="#">Servicios</a>
+          <a class="btn btn-primary ms-3" href="#">Nuestro trabajo</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary ms-3" href="#">Contacto</a>
+          <a class="btn btn-primary ms-3" href="/contacto/contacto.html">Contacto</a>
         </li>
       </ul>
       
@@ -92,5 +92,15 @@
   </footer>
     
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    const acercaDeLink = document.getElementById('acerca-de-link');
+    const acercaDeSection = document.getElementById('acerca-de-nosotros');
+
+    acercaDeLink.addEventListener('click', () => {
+      acercaDeSection.classList.toggle('d-none');
+    });
+  </script>
+ <script src=navbar.js"></script>
+
 </body>
 </html>
