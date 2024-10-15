@@ -1,60 +1,10 @@
 /* Personalización de la plantilla */
 body {
     font-family: Arial, sans-serif;
-    background-color:#6a92dbec;
     height: 100%;
   }
   
-  .navbar {
-    background-color: #000000;
-    color: #fff;
-    padding: auto;
-  }
-  
-  .logo {
-    max-width: 150px;
-    max-height: 150px;
-    border-right: 1px solid rgba(255, 251, 251, 0.445);
-  }
-  
-  .navbar-nav li a {
-    color: #ffffff;
-    font-size: 18px;
-    
-  }
-
-  .navbar-nav li a:hover{
-
-    color: red;
-  }
-  
-
-  .container-img1 {
-    max-width: 500px;
-    max-height: 400px;
-    margin: 20px auto 30px auto;
-    padding: 0;
-    text-align: center;
-  }
-
-  h1{
-
-    color: white;
-    margin: 5px auto auto auto;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-
-  }
-  
-  .footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 26px;
-    text-align: center;
-  }
-  
-  /* styles.css */
+  /* Contacto*/
 
   .contact-form {
     max-width: 600px; /* Ajusta este valor según el ancho deseado */
