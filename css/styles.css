@@ -2,6 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     height: 100%;
+    margin: 0;
+    padding: 0; 
   }
   
 
@@ -25,15 +27,8 @@ body {
   
   
 
-  .container-img1 {
-    max-width: 500px;
-    max-height: 400px;
-    margin: 20px auto 30px auto;
-    padding: 0;
-    text-align: center;
-  }
 
-  h1{
+  h1, h2{
 
     color: black;
     margin: 5px auto auto auto;
@@ -43,56 +38,25 @@ body {
 
   }
 
-  h2{
-    color: black;
-    margin-left: 27px;
-
-  }
-
+ 
   p{
     color: black;
   }
   
   .footer {
-    color: white;
+    
     padding: 26px;
     text-align: center;
   }
   
-  #about{
-   
-    text-align: justify;
-    padding-left: 20px;
-  }
-
-  .container1{
-
-    border: 1px solid black;
-  }
-
-  #about ul{
-    color: black;
-  }
-
-  footer p{
-
-    color: white;
-  }
-
+ .footer p{
+  color: white;
+ }
 
   .bg-grey {
     background-color:  rgb(150, 149, 149);
   }
 
-  hr{
-    border: 5px solid black;
+  .container-text p{
+    color: white;
   }
-
-  .img3{
-        height: 500px;
-  }
-
-  .container2{
-background-color: rgba(52, 110, 235, 0.692);
-  }
-
